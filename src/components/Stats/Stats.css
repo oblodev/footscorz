@@ -1,0 +1,87 @@
+.stats {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1080px;
+  padding-top: 80px;
+}
+
+.stats .second-col {
+  flex-direction: row;
+}
+
+.scorer-stats,
+.assists-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(56, 56, 56);
+  margin: auto 0;
+  padding-bottom: 40px;
+}
+
+.scorer-header {
+  margin-top: 20px;
+}
+
+.scorer-header h2 {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.scorer-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.scorer-info .scorer-img {
+  padding: 12px;
+  border: 1px solid rgb(56, 56, 56);
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.scorer-data {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(56, 56, 56);
+  margin-left: 2s0px;
+  margin-top: 20px;
+  padding: 18px 12px;
+}
+
+.scorer-data .name {
+  margin-bottom: 20px;
+}
+
+.scorer-data .name .club {
+  font-size: 16px;
+}
+
+.scorer-data .name:first-child {
+  font-size: 21px;
+}
+
+.stats-info {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  background-color: #1c96e8;
+  margin-top: 10px;
+}
+
+.goals,
+.assists,
+.rating {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.goals p:first-child,
+.assists p:first-child,
+.rating p:first-child {
+  font-size: 18px;
+}

@@ -1,0 +1,108 @@
+.scores-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  margin: 0 auto;
+  border-radius: 70px;
+  width: 1080px;
+}
+
+.table-wrap {
+  margin: auto 0;
+  text-align: center;
+  width: 100%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.info-header {
+  margin: 8px 0 18px 0;
+  padding-bottom: 6px;
+  display: flex;
+  border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+.info-icon {
+  margin-right: 12px;
+  padding: 8px;
+}
+
+.info-text h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info-text p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.first-col {
+  flex: 0.25;
+  background-color: #222;
+  padding: 12px 0;
+  border-radius: 10px;
+}
+
+.second-col {
+  flex: 0.75;
+  background-color: #222;
+  padding: 12px 0;
+  border-radius: 10px;
+}
+
+.inner-col {
+  border: 1px solid rgb(56, 56, 56);
+  padding: 16px;
+  margin: 8px 12px;
+}
+
+.inner-col ul li {
+  margin-top: 8px;
+}
+
+.inner-col ul li span:hover {
+  color: #1c96e8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.inner-col ul li:first-child {
+  cursor: text;
+  color: #1c96e8;
+}
+
+strong {
+  color: #1c96e8 !important;
+}
+
+.heading-li {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.table {
+  background-color: #222 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+
+.table a {
+  color: #fff;
+}
+
+.table a:hover {
+  color: #1c96e8;
+}
+
+.table th {
+  color: #fff !important;
+}
+
+.scores-wrap .table td {
+  padding: 0.9em 0.8em !important;
+}

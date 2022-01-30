@@ -1,0 +1,11 @@
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  margin-top: 80px;
+}
+
+.footer-wrap p {
+  font-size: 12px;
+}

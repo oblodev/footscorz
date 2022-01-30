@@ -1,0 +1,10 @@
+.header-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo img {
+  cursor: pointer;
+  width: 240px;
+  margin-top: 20px;
+}

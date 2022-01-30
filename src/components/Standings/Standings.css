@@ -1,0 +1,25 @@
+.league-logo {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.align-team {
+  display: flex;
+  align-items: center;
+}
+
+.team-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.team-name {
+  margin-left: 6px;
+}
+
+.blue {
+  color: #1c96e8;
+}
